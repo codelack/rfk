@@ -1,0 +1,326 @@
+/*
+	Authors: Robert Trlak, Tabitha Kennedy, Emily Herrington, Sean Conrad, and Theral Jessop
+	Created Date: September 17, 2014
+	Modified Date: October 18, 2014
+	Created for INFO I213 Web Design and Development at IUK
+	Group: Red
+
+	Description:
+		This is the website CSS for Radio Free Kokomo.
+*/
+
+
+/* BODY ELEMENTS */
+body {
+	background: #EEE url("images/halftone_bw.png") repeat left top;
+	color: #333;
+	font-family: "Benton Sans", 'Calibri', Verdana, sans-serif;
+	width:100%; height:100%; margin:0; padding:0px;  overflow-y:auto; min-width:830px;
+	}
+img {
+	border: none;
+	}
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #aaa;
+	background-image: -webkit-linear-gradient(left, #aaa, #eee);
+	background-image: -moz-linear-gradient(left, #aaa, #eee);
+	background-image: -ms-linear-gradient(left, #aaa, #eee);
+	background-image: -o-linear-gradient(left, #aaa, #eee);
+	}
+h1, h2, h3, h4 {
+	font-family: "Salvo Serif Cond", Georgia, serif;
+	font-weight: 700;
+	}
+h2 {
+	color: white;
+	background-color: #7D110C;
+	padding: 0px 20px 0px;
+}
+h4 {
+	margin: 5px 0 0;
+	}
+b, strong {
+	font-weight: 700;
+	}
+i, em {
+	font-style: italic;
+	}
+blockquote {
+	margin: 5px 25px;
+	padding: 7px;
+	border: 0;
+	background-color: white;
+	background-image: -webkit-linear-gradient(left, #eee, white);
+	background-image: -moz-linear-gradient(left, #eee, white);
+	background-image: -ms-linear-gradient(left, #eee, white);
+	background-image: -o-linear-gradient(left, #eee, white);
+	}
+.nobullet {
+	list-style-type: none;
+	margin-left: 0;
+	}
+#container {
+	margin: 0 auto;
+	padding: 0px 5px 15px;
+	width: 80%;
+	min-width: 810px; max-width: 1200px;
+	min-height: 100%;
+	}
+
+
+/* ANCHOR PSEUDOS */
+* a {
+	text-decoration: none;
+	}
+#container a {
+	color: #7D110C;
+	}
+#container a:hover {
+	color: #590B0B;
+	}
+* a:hover {
+		-webkit-transition: color .5s ease;
+		-moz-transition: color .5s ease;
+		-o-transition: color .5s ease;
+		transition: color .5s ease;
+	}
+
+
+/* HEADER ELEMENTS */
+header {
+	background: #1A1A1A url("images/carbon.png") repeat left top;
+	text-align: center;
+	margin: 0 auto; padding: 10px 20px;
+	}
+header img {
+	max-width: 100%;
+	width: 894px;
+	height: auto;
+	}
+
+
+/* NAV ELEMENTS */
+nav {
+	background-color: white;
+	text-align: center;
+	font-size: 1.65em;
+	position: relative;
+	margin: 0 auto; padding: 17px 70px;
+	position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1);
+	}
+nav::before, nav::after {
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.4);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.4);
+    box-shadow:0 0 20px rgba(0,0,0,0.4);
+    top:50%;
+    bottom:0;
+    left:30px;
+    right:30px;
+    -moz-border-radius:100px / 30px;
+    border-radius:100px / 30px;
+	}
+nav::after {
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+					}
+nav a:first-of-type {
+	margin-left: 0;
+}
+nav a:last-of-type {
+	margin-right: 0;
+}
+nav a {
+	color: #7D110C;
+	font-family: 'Calibri', "Helvetica Neue", "Benton Sans", sans-serif;
+	font-weight: 300;
+	margin-right: 60px;
+	margin-left: 60px;
+	}
+nav a:hover {
+	color: #A90B0B;
+	}
+
+
+/* ASIDE ELEMENTS */
+aside {
+	width: 300px; height:100%;
+	padding: 5px;
+	float: left;
+	display:block; /*display:block; fixes margin problem in IE*/
+	}
+aside section {
+	position: relative;
+	margin-bottom: 50px;
+	}
+aside p {
+	font-size: .75em;
+	text-align: justify;
+	}
+
+
+/* MAIN ELEMENTS */
+main {
+	min-width: 460px; height: 100%;
+	padding: 5px;
+	margin-left: 330px;
+	display:block;
+	}
+main h2 {
+	padding: 0px 20px 0px;
+	}
+main article {
+	background-color: white;
+	padding: 20px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .25);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0, .25);
+	box-shadow: 0 0 5px rgba(0,0,0, .25);
+	}
+main p {
+	font-size: 1em;
+	margin: 10px 0;
+	}
+main p:first-of-type {
+	margin-top: 5px;
+	}
+main p:last-of-type {
+	margin-bottom: 5px;
+	}
+
+
+/* FOOTER ELEMENTS */
+footer {
+	background-color: white;
+	clear: both;
+	}
+/*#container::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height:0%;
+	clear:both;
+	} /* **^--This is the clear element for before the footer** */
+/*
+#fclear {
+	width: 100%;
+	height: 5px;
+	background-color: #7D110D;
+	clear: both;
+	}
+footer {
+	background-color: white;
+	font-size: .75em;
+	position: relative;
+	height: 70px;
+	margin: 0 auto; padding: 17px 70px 0px;
+	}
+footer a {
+	color: #7D110C;
+	}
+footer a:hover {
+	color: #590B0B;
+	}
+#fleft {
+	float: left;
+	}
+
+footer ul {
+	display: inline-block;
+	} /* **^--This puts them on two separate columns** */
+/*
+footer li {
+	list-style-type: none;
+	margin-left: 0; margin-top: 11px;
+	}
+
+#fright {
+	margin-right:10px;
+	float: right;
+	}
+#fright::after {
+	content: "";
+	display: inline-block;
+	width: 100%;
+	height:0%;
+	clear:both;
+	}
+*/
+
+
+/* PAGE ELEMENTS */
+
+/* TABLE ELEMENTS */
+main table {
+	border-collapse: collapse;
+	background-color: white;
+	}
+main table tr {
+	border: 3px solid #7D110C;
+	}
+main table td {
+	padding: 10px;
+	}
+main table td img {
+	width: 300px;
+	height: 100px;
+	}
+
+/* FORM ELEMENTS */
+main fieldset {
+	background-color: white;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	}
+main fieldset fieldset {
+	margin: 0;
+	border: 1px dashed #7D110C;
+}
+main legend {
+	font-family: "Salvo Serif Cond", Georgia, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+	border: 1px solid gray;
+	}
+main fieldset fieldset legend {
+	color: #7D110C;
+	border: none;
+}
+.shrink {
+	font-style: italic;
+	font-size: .8em;
+	}
+.redaster {
+	color: red;
+	}
+.error {
+	color: red;
+	background-color: yellow;
+	}
+input.button {
+	cursor: pointer;
+	padding: 5px 18px;
+	margin-right: 10px;
+	background-color: #7D110C;
+	color: white;
+	font-size: 1.1em;
+	border: none;
+	}
+input.button:hover, input#button:focus {
+	background-color: #590B0B;
+	-webkit-box-shadow: 0 0 5px rgba(0,0,0, .75);
+	-moz-box-shadow: 0 0 5px rgba(0,0,0, .75);
+	box-shadow: 0 0 5px rgba(0,0,0, .75);
+}

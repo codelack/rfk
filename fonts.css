@@ -1,0 +1,96 @@
+/*
+This CSS resource incorporates links to font software which is
+the valuable copyrighted property of WebType LLC, The Font Bureau
+and/or their suppliers. You may not
+attempt to copy, install, redistribute, convert, modify or reverse
+engineer this font software. Please contact WebType with any
+questions: http://www.webtype.com
+*/
+
+@font-face { font-family: "Defused";
+          src: url(fonts/defused.ttf);
+  } /*Where is this font located and where is it used?*/
+
+
+@font-face {
+  font-family: "Benton Sans";
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-regular/benton-sans-regular.eot");
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-regular/benton-sans-regular.eot?#iefix") format("embedded-opentype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-regular/benton-sans-regular.woff") format("woff"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-regular/benton-sans-regular.ttf") format("truetype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-regular/benton-sans-regular.svg#BentonSansRegular") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  }
+@font-face {
+  font-family: "Benton Sans";
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-regular-italic/benton-sans-regular-italic.eot");
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-regular-italic/benton-sans-regular-italic.eot?#iefix") format("embedded-opentype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-regular-italic/benton-sans-regular-italic.woff") format("woff"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-regular-italic/benton-sans-regular-italic.ttf") format("truetype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-regular-italic/benton-sans-regular-italic.svg#Benton Sans") format("svg");
+  font-style: italic;
+  font-weight: normal;
+  }
+@font-face {
+  font-family: "Benton Sans";
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-bold/benton-sans-bold.eot");
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-bold/benton-sans-bold.eot?#iefix") format("embedded-opentype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-bold/benton-sans-bold.woff") format("woff"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-bold/benton-sans-bold.ttf") format("truetype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-bold/benton-sans-bold.svg#Benton Sans") format("svg");
+  font-style: normal;
+  font-weight: 700;
+  }
+@font-face {
+  font-family: "Benton Sans";
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-black-italic/benton-sans-black-italic.eot");
+  src: url("fonts/benton-sans/Benton Sans/benton-sans-black-italic/benton-sans-black-italic.eot?#iefix") format("embedded-opentype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-black-italic/benton-sans-black-italic.woff") format("woff"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-black-italic/benton-sans-black-italic.ttf") format("truetype"),
+       url("fonts/benton-sans/Benton Sans/benton-sans-black-italic/benton-sans-black-italic.svg#Benton Sans") format("svg");
+  font-style: italic;
+  font-weight: 900;
+  }
+
+
+@font-face {
+  font-family: "Salvo Serif Cond";
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-regular/salvo-serif-cond-regular.eot");
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-regular/salvo-serif-cond-regular.eot?#iefix") format("embedded-opentype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-regular/salvo-serif-cond-regular.woff") format("woff"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-regular/salvo-serif-cond-regular.ttf") format("truetype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-regular/salvo-serif-cond-regular.svg#Salvo Serif Cond") format("svg");
+  font-style: normal;
+  font-weight: normal;
+  }
+@font-face {
+  font-family: "Salvo Serif Cond";
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-italic/salvo-serif-cond-italic.eot");
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-italic/salvo-serif-cond-italic.eot?#iefix") format("embedded-opentype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-italic/salvo-serif-cond-italic.woff") format("woff"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-italic/salvo-serif-cond-italic.ttf") format("truetype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-italic/salvo-serif-cond-italic.svg#Salvo Serif Cond") format("svg");
+  font-style: italic;
+  font-weight: normal;
+  }
+@font-face {
+  font-family: "Salvo Serif Cond";
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold/salvo-serif-cond-bold.eot");
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold/salvo-serif-cond-bold.eot?#iefix") format("embedded-opentype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold/salvo-serif-cond-bold.woff") format("woff"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold/salvo-serif-cond-bold.ttf") format("truetype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold/salvo-serif-cond-bold.svg#Salvo Serif Cond") format("svg");
+  font-style: normal;
+  font-weight: 700;
+  }
+@font-face {
+  font-family: "Salvo Serif Cond";
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold-italic/salvo-serif-cond-bold-italic.eot");
+  src: url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold-italic/salvo-serif-cond-bold-italic.eot?#iefix") format("embedded-opentype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold-italic/salvo-serif-cond-bold-italic.woff") format("woff"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold-italic/salvo-serif-cond-bold-italic.ttf") format("truetype"),
+       url("fonts/salvo-serif/Salvo Serif/salvo-serif-cond-bold-italic/salvo-serif-cond-bold-italic.svg#Salvo Serif Cond") format("svg");
+  font-style: italic;
+  font-weight: 700;
+  }
